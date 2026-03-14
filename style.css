@@ -8,6 +8,9 @@ body {
     font-family: 'Georgia', serif;
     background-color: #f9f7f4;
     color: #2c2c2c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -83,6 +86,94 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    color: #1a1a2e;
+    border-bottom: 2px solid #c9a84c;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+article {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33% - 20px);
+}
+
+.imovel-detalhe {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 40px;
+}
+
+.imovel-detalhe h1 {
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.galeria figure {
+    margin: 0;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    margin-top: 6px;
+}
+
+.imovel-detalhe ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.imovel-detalhe ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.imovel-detalhe dl {
+    margin-bottom: 20px;
+}
+
+.imovel-detalhe dt {
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+.imovel-detalhe dd {
+    margin-left: 0;
+    margin-bottom: 8px;
+    color: #555;
+}
+
 footer {
     background-color: #1a1a2e;
     color: #a0a0a0;
@@ -90,4 +181,5 @@ footer {
     padding: 20px 40px;
     font-size: 0.85rem;
     letter-spacing: 1px;
+    margin-top: auto;
 }

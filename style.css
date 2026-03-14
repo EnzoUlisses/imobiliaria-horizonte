@@ -51,7 +51,37 @@ nav ul li a:hover {
     color: #c9a84c;
 }
 
+h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
 
+h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+a {
+    color: #c9a84c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 footer {
     background-color: #1a1a2e;

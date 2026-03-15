@@ -113,6 +113,27 @@ article {
     width: calc(33% - 20px);
 }
 
+.tipo-imovel {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.aluguel {
+    background-color: #f0f0f0;
+    color: #555555;
+}
+
+.venda {
+    background-color: #fdf3dc;
+    color: #8a6914;
+}
+
 .imovel-detalhe {
     max-width: 900px;
     margin: 40px auto;
@@ -123,8 +144,6 @@ article {
     color: #1a1a2e;
     margin-bottom: 8px;
 }
-
-
 
 .imovel-detalhe ul {
     list-style: none;

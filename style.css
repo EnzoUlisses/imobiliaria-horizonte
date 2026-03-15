@@ -113,6 +113,18 @@ article {
     width: calc(33% - 20px);
 }
 
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+article figure {
+    margin: 0;
+}
+
 .tipo-imovel {
     display: inline-block;
     font-size: 0.8rem;

@@ -125,6 +125,18 @@ article figure {
     margin: 0;
 }
 
+article ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+article ul li {
+    padding: 4px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
 .tipo-imovel {
     display: inline-block;
     font-size: 0.8rem;

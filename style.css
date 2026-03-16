@@ -254,6 +254,46 @@ footer {
     margin-top: auto;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #2c2c2c;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #c9a84c;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;

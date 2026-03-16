@@ -329,4 +329,11 @@ textarea {
     .acoes {
         flex-direction: column;
     }
+    form {
+    max-width: 100%;
+    }
+
+    input,textarea,select {
+    font-size: 16px;
+    }
 }
